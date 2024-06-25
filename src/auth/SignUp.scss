@@ -1,0 +1,128 @@
+section {
+  padding-top: 60px;
+  .singup-container {
+    display: flex;
+    align-items: center;
+    gap: 129px;
+
+    .signup-image {
+      width: 805px;
+      height: 781px;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    .register {
+      width: 371px;
+      height: 530px;
+
+      .register-text {
+        h1 {
+          //styleName: Heading/36PX Medium;
+          font-family: Inter;
+          font-size: 36px;
+          font-weight: 500;
+          line-height: 30px;
+          letter-spacing: 0.04em;
+          text-align: left;
+          color: #000000;
+          margin: 0;
+        }
+        p {
+          //styleName: Title/16PX Regular;
+          font-family: Poppins;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+          text-align: left;
+          color: #000000;
+          padding-top: 24px;
+          margin: 0;
+        }
+      }
+      .input-content {
+        display: flex;
+        flex-direction: column;
+        margin-top: 48px;
+        // border: 1px solid black;
+        height: 404px;
+
+        .inputs {
+          display: flex;
+          flex-direction: column;
+          gap: 40px;
+          input {
+            width: 100%;
+            height: 32px;
+            height: 32px;
+            border: none;
+            border-bottom: 1px solid #000000;
+            opacity: 50%;
+          }
+        }
+        .buttons {
+          margin-top: 40px;
+          display: flex;
+          flex-direction: column;
+          gap: 16px;
+          button {
+            width: 371px;
+            height: 56px;
+            //styleName: Title/16PX Medium;
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            border-radius: 4px;
+            &:nth-child(1) {
+              color: #fafafa;
+              background-color: #db4444;
+              border: none;
+            }
+            &:nth-child(2) {
+              border: 1px solid #00000066;
+              background: none;
+              color: #000000;
+            }
+            &:hover {
+              transform: scale(1.03);
+              transition: 0.3s;
+            }
+        }
+        .tegister-text-content {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: end;
+            gap: 16px;
+            margin-top: 16px;
+            height: 28px;
+            
+          p {
+            //styleName: Title/16PX Regular;
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            color: #000000;
+            opacity: 70%;
+            margin: 0;
+          }
+          a {
+            //styleName: Title/16PX Medium;
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            color: #000000;
+            opacity: 70%;
+            margin: 0;
+          }
+        }
+        }
+      }
+    }
+  }
+}
